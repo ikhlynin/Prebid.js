@@ -24,7 +24,7 @@ This adapter is intended for demonstration and testing purposes.
 ```javascript
 var adUnits = [
   {
-    code: 'div-gpt-ad-300x250',
+    code: 'ad-unit-code-300x250',
     mediaTypes: {
       banner: {
         sizes: [[300, 250], [300, 600]]
