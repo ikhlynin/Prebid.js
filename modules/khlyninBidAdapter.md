@@ -11,14 +11,6 @@ This adapter is intended for demonstration and testing purposes.
 
 ---
 
-## Bid Request Parameters
-
-| Name         | Scope    | Type   | Description                                   | Example       |
-|-------------|---------|--------|-----------------------------------------------|--------------|
-| placementId | required | string | Unique ID of the ad placement on the page.    | "abc123"     |
-
----
-
 ## Example Ad Unit Configuration
 
 ```javascript
