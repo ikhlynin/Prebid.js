@@ -9,7 +9,7 @@ export const spec = {
   supportedMediaTypes: [BANNER],
 
   isBidRequestValid(bid) {
-    return !!bid.params.placementId;
+    return !!(bid.params && bid.params.placementId);
   },
 
   buildRequests(validBidRequests, bidderRequest) {
